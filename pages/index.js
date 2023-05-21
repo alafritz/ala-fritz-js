@@ -1,18 +1,13 @@
-import React from 'react';
-import './App.scss';
-import './Patterns.scss';
-import './Typography.scss';
-import './Colors.scss';
-import MenuItem from './MenuItem';
-import LinkOut from './LinkOut';
-import specialsContent from './/content/specials';
-import sidesContent from './/content/sides';
-import caterContent from './/content/cater';
-import linksContent from './/content/links';
-import { LastFmData } from './/LastFM/index';
+import MenuItem from './MenuItem/menuitem';
+import LinkOut from './LinkOut/linkout';
+import specialsContent from './content/specials';
+import sidesContent from './content/sides';
+import caterContent from './content/cater';
+import linksContent from './content/links';
+import { LastFmData } from './LastFM/lastfm';
 
 
-function App() {
+export default function Home() {
   return (
 
     <div className="grid-king">
@@ -108,4 +103,5 @@ function App() {
   );
 }
 
-export default App;
+
+

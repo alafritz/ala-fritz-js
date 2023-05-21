@@ -11,9 +11,9 @@ body,
   margin-bottom: 80px;
   padding: 0 20px;
   display: grid;
-/*   grid-template-columns: repeat(4,min-content); */
+  /*   grid-template-columns: repeat(4,min-content); */
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
-  grid-template-rows: 80px 80px repeat(8,min-content);
+  grid-template-rows: 80px 80px repeat(8, min-content);
   max-width: 1040px;
   grid-gap: 4px 4px;
 }
@@ -65,7 +65,7 @@ point 3 - 619px and lower
   margin-top: -40px;
 }
 
-.logo-type{
+.logo-type {
   position: relative;
   transform: rotate(-90deg);
   font-family: "Ruben", monospace;
@@ -78,7 +78,7 @@ point 3 - 619px and lower
 
 
 
-.music-icon{
+.music-icon {
   float: left;
   width: 25px;
   height: 25px;
@@ -143,7 +143,7 @@ point 3 - 619px and lower
 .area-pink {
   // min-height: 200px;
   grid-area: 7/2/8/6;
-  background-color:var(--pink);
+  background-color: var(--pink);
   overflow: hidden;
 }
 
@@ -175,12 +175,13 @@ point 3 - 619px and lower
     top: 50%;
     margin-top: -30px;
   }
+
   .mark-size {
     height: 60px;
     width: 60px;
   }
 
-  .logo-type{
+  .logo-type {
     transform: none;
     font-size: 40px;
     text-align: center;
@@ -205,14 +206,14 @@ point 3 - 619px and lower
     float: left;
     margin-right: 40px;
   }
-  
+
   .grid-king {
     margin-top: 40px;
     padding: 0 20px;
     display: grid;
-  /*   grid-template-columns: repeat(4,min-content); */
+    /*   grid-template-columns: repeat(4,min-content); */
     grid-template-columns: 2fr 3fr 5fr 1fr 1fr;
-    grid-template-rows: 60px 60px repeat(10,min-content);
+    grid-template-rows: 60px 60px repeat(10, min-content);
     grid-gap: 4px 4px;
   }
 
@@ -224,27 +225,27 @@ point 3 - 619px and lower
     width: 100%;
     grid-area: 3/1/5/2;
   }
-  
+
   .area-green {
     grid-area: 1/2/4/6;
   }
-  
+
   .area-specials {
     grid-area: 5/1/6/6;
   }
-  
+
   .area-recs {
     grid-area: 6/1/7/4;
     border-right: 4px solid var(--purple-500);
     border-bottom: 4px solid var(--purple-500);
     margin-bottom: 100px;
   }
-  
+
   .area-blue {
     /* padding-bottom: 100px; */
     grid-area: 6/1/8/6;
   }
-  
+
   .area-name {
     grid-area: 8/1/9/6;
   }
@@ -252,14 +253,14 @@ point 3 - 619px and lower
   .area-music {
     grid-area: 9/1/10/6;
   }
-  
+
   .area-links {
     grid-area: 10/3/11/6;
     border-left: 4px solid var(--purple-500);
     border-bottom: 4px solid var(--purple-500);
     margin-bottom: 100px;
   }
-  
+
   .area-pink {
     grid-area: 10/1/13/6;
   }
@@ -278,38 +279,40 @@ point 3 - 619px and lower
     float: left;
     margin: 0 0 15px 0;
   }
+
   .info-column:nth-child(1) {
     width: 100%;
   }
+
   .info-column:nth-child(2) {
     float: left;
     margin: 0 30px 15px 0;
   }
-  
+
   .grid-king {
     margin-top: 40px;
     padding: 0 2px;
     display: grid;
-  /*   grid-template-columns: repeat(4,min-content); */
+    /*   grid-template-columns: repeat(4,min-content); */
     grid-template-columns: 2fr 3fr 5fr 1fr 1fr;
-    grid-template-rows: 30px 30px repeat(10,min-content);
+    grid-template-rows: 30px 30px repeat(10, min-content);
     grid-gap: 2px 2px;
   }
 
-.area-title {
-  border-top: 2px solid var(--purple-500);
-  border-right: 2px solid var(--purple-500);
-}
+  .area-title {
+    border-top: 2px solid var(--purple-500);
+    border-right: 2px solid var(--purple-500);
+  }
 
-.area-recs {
-  border-right: 2px solid var(--purple-500);
-  border-bottom: 2px solid var(--purple-500);
-}
+  .area-recs {
+    border-right: 2px solid var(--purple-500);
+    border-bottom: 2px solid var(--purple-500);
+  }
 
-.area-links {
-  border-left: 2px solid var(--purple-500);
-  border-bottom: 2px solid var(--purple-500);
-}
+  .area-links {
+    border-left: 2px solid var(--purple-500);
+    border-bottom: 2px solid var(--purple-500);
+  }
 
   .center-mark {
     position: relative;
@@ -318,6 +321,7 @@ point 3 - 619px and lower
     top: 50%;
     margin-top: -20px;
   }
+
   .mark-size {
     height: 40px;
     width: 40px;
