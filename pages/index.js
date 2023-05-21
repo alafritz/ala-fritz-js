@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import MenuItem from './MenuItem/menuitem';
 import LinkOut from './LinkOut/linkout';
 import specialsContent from './content/specials';
@@ -5,6 +6,8 @@ import sidesContent from './content/sides';
 import caterContent from './content/cater';
 import linksContent from './content/links';
 import { LastFmData } from './LastFM/lastfm';
+import MainLogo from '../public/images/f-logo.svg';
+import MusicIcon from '../public/images/music-icon.svg';
 
 
 export default function Home() {
@@ -14,7 +17,7 @@ export default function Home() {
 
       <div className="area-logo-mark">
         <div className="center-mark">
-          <img className="mark-size" src="./images/f-logo.svg" alt="A la Fritz logo" />
+          <Image className="mark-size" src={MainLogo} alt="A la Fritz logo" />
         </div>
       </div>
 
@@ -79,7 +82,7 @@ export default function Home() {
       </div>
 
       <div className="area-music content">
-        <img className="music-icon" src="./images/music-icon.svg" alt="Music icon" />
+        <Image className="music-icon" src={MusicIcon} alt="Music icon" />
         <LastFmData
           userName={'alafritz'}
           apiKey={'98bd922cccc5b197a8dc40dd3a00e411'}
