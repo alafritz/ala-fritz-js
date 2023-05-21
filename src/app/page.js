@@ -35,7 +35,7 @@ function App() {
       <div className="area-title content" lang="en">
         <h1>Fresh ya</h1>
         <h1 className="f-left">Shamba</h1>
-        <p className="space-above">Welcome to Fritz&apos;s corner of the internet. Enjoy!</p>
+        <p className="space-above">Welcome to Fritz corner of the internet. Enjoy!</p>
       </div>
 
       <div className="area-strip" lang="en">
