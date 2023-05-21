@@ -1,0 +1,41 @@
+// Abstract from app.scss only the elements that build the menu items
+
+.small-item {
+  padding-top: 20px;
+}
+
+.line-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.line-name {
+  margin-right: 10px;
+}
+
+.line-dots {
+  flex: 1 1 40px;
+  height: 6px;
+  margin-right: 10px;
+  background-image: url(/assets/images/waves.svg);
+  background-repeat: repeat-x;
+}
+
+.line-price {
+  width: auto;
+  text-align: right;
+}
+
+.description {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.h4Small {
+  padding-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+}
