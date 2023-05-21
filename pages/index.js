@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import MenuItem from './MenuItem/menuitem';
-import LinkOut from './LinkOut/linkout';
-import specialsContent from './content/specials';
-import sidesContent from './content/sides';
-import caterContent from './content/cater';
-import linksContent from './content/links';
-import { LastFmData } from './LastFM/lastfm';
+import MenuItem from '../content/menuitem';
+import LinkOut from '../content/linkout';
+import specialsContent from '../content/specials';
+import sidesContent from '../content/sides';
+import caterContent from '../content/cater';
+import linksContent from '../content/links';
+import { LastFmData } from '../content/lastfm';
 import MainLogo from '../public/images/f-logo.svg';
 import MusicIcon from '../public/images/music-icon.svg';
 
