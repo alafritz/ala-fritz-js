@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'DMMono Italic';
-  src: local('DMMonoItalic'), url(/public/fonts/DMMono-Italic.ttf) format('ttf');
+  src: local('DMMonoItalic'), url(./assets/fonts/DMMono-Italic.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'DMMono Regular';
-  src: local('DMMonoRegular'), url(/public/fonts/DMMono-Regular.ttf) format('ttf');
+  src: local('DMMonoRegular'), url(./assets/fonts/DMMono-Regular.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'DMMono Medium';
-  src: local('DMMonoItalic'), url(/public/fonts/DMMono-Medium.ttf) format('ttf');
+  src: local('DMMonoItalic'), url(./assets/fonts/DMMono-Medium.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'Ruben';
-  src: local('Ruben'), url(/public/fonts/RUBEN-Regular.woff) format('woff');
+  src: local('Ruben'), url(./assets/fonts/RUBEN-Regular.woff) format('woff');
 }
 
 /* ELEMENTS */
