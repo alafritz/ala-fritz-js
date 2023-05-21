@@ -13,11 +13,12 @@ import { LastFmData } from './/LastFM/index';
 
 function App() {
   return (
+
     <div className="grid-king">
 
       <div className="area-logo-mark">
         <div className="center-mark">
-          <img className="mark-size" src="./f-logo.svg" alt="A la Fritz logo" />
+          <img className="mark-size" src="./images/f-logo.svg" alt="A la Fritz logo" />
         </div>
       </div>
 
@@ -82,7 +83,7 @@ function App() {
       </div>
 
       <div className="area-music content">
-        <img className="music-icon" src="./music-icon.svg" alt="Music icon" />
+        <img className="music-icon" src="./images/music-icon.svg" alt="Music icon" />
         <LastFmData
           userName={'alafritz'}
           apiKey={'98bd922cccc5b197a8dc40dd3a00e411'}
