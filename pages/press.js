@@ -29,6 +29,10 @@ export default function Home() {
                 <div className="pattern-4"></div>
             </div>
 
+            <div className="area-pattern-press-end">
+                <div className="pattern-4"></div>
+            </div>
+
 
             <div className="area-title-press content" lang="en">
                 <h1>In the press</h1>
