@@ -1,10 +1,9 @@
-
 const sides = [{
     name: "In the press",
     price: "$MP",
     description: "See what’s been written about the things that I’ve worked on.",
-    // url: "/chez-fritz/src/App.js",
-    urlName: 'Press clippings - being built',
+    url: "/press",
+    urlName: 'Press clippings',
     small: true,
 },
 {

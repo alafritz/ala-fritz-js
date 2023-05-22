@@ -1,5 +1,7 @@
 import React from 'react';
+import '../styles/global.scss';
 import '../styles/index.scss';
+import '../styles/press.scss';
 import '../styles/Patterns.scss';
 import '../styles/Typography.scss';
 import '../styles/Colors.scss';

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import MenuItem from '../components/menuitem';
 import LinkOut from '../components/linkout';
 import specialsContent from '../components/specials';
@@ -6,7 +7,7 @@ import sidesContent from '../components/sides';
 import caterContent from '../components/cater';
 import linksContent from '../components/links';
 import { LastFmData } from '../components/lastfm';
-import MainLogo from '../public/images/f-logo.svg';
+import MainLogo from '../public/images/f-logo-large.svg';
 import MusicIcon from '../public/images/music-icon.svg';
 
 

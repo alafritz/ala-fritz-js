@@ -1,7 +1,7 @@
 const MenuItem = ({ content }) => {
 
     return (
-        <div className='menu-item'>
+        <div className={'menu-item ' + (content.small && 'menu-item-sml')}>
             <div className="line-item">
                 <div className="line-name">
                     <h4 className={(content.small && 'h4Small')}>{content.name}</h4>
@@ -22,6 +22,5 @@ const MenuItem = ({ content }) => {
         </div >
     )
 }
-
 
 export default MenuItem

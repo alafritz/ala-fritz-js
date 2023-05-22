@@ -1,4 +1,17 @@
 // Abstract from app.scss only the elements that build the menu items
+.menu-item {
+  padding-top: 40px;
+}
+
+.menu-item-sml {
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 919px) {
+  .menu-item {
+    padding-top: 25px;
+  }
+}
 
 .small-item {
   padding-top: 20px;
@@ -34,7 +47,6 @@
 }
 
 .h4Small {
-  padding-top: 25px;
   font-weight: 400;
   font-size: 16px;
   line-height: 145%;
