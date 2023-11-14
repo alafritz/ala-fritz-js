@@ -41,7 +41,7 @@ export default function Home() {
         <div className="info-row">
           <div className="info-column">
             <h5>Current Catering Deal</h5>
-            <p>Staff Designer at <a href="https://lattice.com/">Lattice</a></p>
+            <p>Designer at <a href="https://www.tremendous.com/">Tremendous</a></p>
           </div>
           <div className="info-column">
             <h5>Location</h5>

@@ -1,4 +1,10 @@
 const cater = [{
+    name: "Lattice",
+    price: "2021 - 2023",
+    description: "HR SaaS - Staff Product Designer",
+    small: true,
+},
+{
     name: "Credit Karma",
     price: "2020 - 2021",
     description: "Fin-tech/Marketing - Staff Product Designer",
