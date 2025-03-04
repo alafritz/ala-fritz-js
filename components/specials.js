@@ -2,8 +2,8 @@ const specials = [{
     name: "FIO [Figure it Out]",
     price: "$MP",
     description: "As more people scatter across multiple time zones, figuring out the right time for meetings, catch ups with friends, and family calls poses issues. But here comes FIO.",
-    url: 'https://www.fioapp.co',
-    urlName: "fioapp.co",
+    // url: 'https://www.fioapp.co',
+    // urlName: "fioapp.co",
 },
 {
     name: "Rangi Bora",
