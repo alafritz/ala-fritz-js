@@ -45,11 +45,11 @@ export default function Home() {
           </div>
           <div className="info-column">
             <h5>Location</h5>
-            <p>Oakland, CA, USA</p>
+            <p>València, Spain</p>
           </div>
           <div className="info-column">
             <h5>Business hours</h5>
-            <p>9:00am - 5:00pm</p>
+            <p>9:00am - 5:00pm CET</p>
           </div>
         </div>
       </div>
