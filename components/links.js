@@ -1,6 +1,10 @@
 const links = [{
+    name: "Are.na",
+    url: 'https://www.are.na/fritz-riha',
+},
+{
     name: "Dribbble",
-    url: 'http://www.dribbble.com/alafritz',
+    url: 'https://www.dribbble.com/alafritz',
 },
 {
     name: "Linkedin",
