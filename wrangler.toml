@@ -4,8 +4,8 @@ compatibility_flags = ["nodejs_compat"]
 main = ".open-next/worker.js"
 
 routes = [
-  { pattern = "yofritz.com.com", custom_domain = true },
-  { pattern = "www.yofritz.com.com", custom_domain = true },
+  { pattern = "yofritz.com", custom_domain = true },
+  { pattern = "www.yofritz.com", custom_domain = true },
 ]
 
 assets = { directory = ".open-next/assets", binding = "ASSETS" }
