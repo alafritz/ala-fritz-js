@@ -9,8 +9,7 @@ const specials = [{
     name: "Rangi Bora",
     price: "$MP",
     description: "Generate WCAG2 AA accessible and pleasing color palette sets.",
-    // url: 'https://rangibora.com',
-    // urlName: "rangibora.com",
+    url: 'https://rangibora.yofritz.com',
 },
 {
     name: "Coco Ndizi",

@@ -4,7 +4,9 @@ const MenuItem = ({ content }) => {
         <div className={'menu-item ' + (content.small && 'menu-item-sml')}>
             <div className="line-item">
                 <div className="line-name">
-                    <h4 className={(content.small && 'h4Small')}>{content.name}</h4>
+                    <h4 className={(content.small && 'h4Small')}>
+                        {content.url ? <a href={content.url}>{content.name}</a> : content.name}
+                    </h4>
                 </div>
                 <div className="line-dots">
                 </div>
