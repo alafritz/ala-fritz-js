@@ -3,7 +3,7 @@ const sides = [{
     price: "$MP",
     description: "See what’s been written about the things that I’ve worked on.",
     url: "/press",
-    urlName: 'Press clippings',
+    // urlName: 'Press clippings',
     small: true,
 },
 {
@@ -11,7 +11,7 @@ const sides = [{
     price: "$MP",
     description: "Committee Member, helping empower underrepresented youth through design education and career opportunities.",
     url: 'https://www.inneractproject.org',
-    urlName: 'inneractproject.org',
+    // urlName: 'inneractproject.org',
     small: true,
 },
 {
